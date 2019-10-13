@@ -1,5 +1,18 @@
 import { TableRow } from './general';
 
+export const SMART_SCRIPTS_TABLE = 'smart_scripts';
+export const SMART_SCRIPTS_ID_FIELDS = [
+  'entryorguid',
+  'source_type',
+  'id',
+  'link',
+];
+
+export const SMART_SCRIPTS_SEARCH_FIELDS = [
+  'entryorguid',
+  'source_type',
+];
+
 export class SmartScripts extends TableRow {
   entryorguid: number = 0;
   source_type: number = 0;
@@ -31,4 +44,11 @@ export class SmartScripts extends TableRow {
   target_z: number = 0;
   target_o: number = 0;
   comment: string = '';
+}
+
+export enum SMARTAI_SOURCE_TYPES {
+  CREATURE,
+  GAMEOBJECT,
+  AREATRIGGER,
+  TIMED_ACTIONLIST,
 }
