@@ -24,12 +24,12 @@ describe('DashboardComponent', () => {
   let page: DashboardComponentPage;
 
   const versionRow: VersionRow = {
-    core_version: 'AzerothCore rev. 2bcedc2859e7 2019-02-17 10:04:09 +0100 (master branch) (Unix, Debug)',
-    core_revision: '2bcedc2859e7',
-    db_version: 'ACDB 335.3 (dev)',
+    core_version: 'TrinityCore rev. fcfbd61bc07a 2021-02-20 20:49:00 -0700 (repackv3 branch) (Win32, Release, Static)',
+    core_revision: 'fcfbd61bc07a',
+    db_version: 'TDB 335.21011',
     cache_id: 3,
   };
-  const worldDbVersion = '2019_02_17_02';
+  const worldDbVersion = '2021_01_15_07';
   const versionDbRow: VersionDbRow = {
     'sql_rev': 123,
     'required_rev': null,

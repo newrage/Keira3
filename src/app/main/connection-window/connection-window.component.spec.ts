@@ -101,7 +101,7 @@ describe('ConnectionWindowComponent', () => {
       'port': 3306,
       'user': 'root',
       'password': 'root',
-      'database': 'acore_world',
+      'database': 'tcore_world',
     });
     expect(component.error).toBeNull();
     expect(page.errorElement.innerHTML).not.toContain('error-box');

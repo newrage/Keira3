@@ -39,7 +39,7 @@ export class ConnectionWindowComponent extends SubscriptionHandler implements On
       'port': new FormControl(3306),
       'user': new FormControl('root'),
       'password': new FormControl('root'),
-      'database': new FormControl('acore_world'),
+      'database': new FormControl('tcore_world'),
     });
 
     this.configs = this.connectionWindowService.getConfigs();
